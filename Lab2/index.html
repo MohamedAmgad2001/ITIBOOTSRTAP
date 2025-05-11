@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educational Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">ITI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="text-center py-5 bg-light">
+      <div class="container">
+        <h1 class="display-4">Start Learning Today!</h1>
+        <p class="lead">Join thousands of students learning new skills.</p>
+        <a href="#" class="btn btn-primary btn-lg">Browse Courses</a>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="p-4 border rounded h-100">
+              <img
+                src="images/2.jpg"
+                alt="Programming"
+                class="img-fluid rounded mb-3 shadow-sm"
+                style="height: 200px; object-fit: cover; width: 100%"
+              />
+              <h4 class="mt-3">Programming</h4>
+              <p>Learn popular languages like Python, JavaScript, and more.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 border rounded h-100">
+              <img
+                src="images/1.jpg"
+                alt="Design"
+                class="img-fluid rounded mb-3 shadow-sm"
+                style="height: 200px; object-fit: cover; width: 100%"
+              />
+              <h4 class="mt-3">Design</h4>
+              <p>Master graphic and web design tools and principles.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 border rounded h-100">
+              <img
+                src="images/3.jpg"
+                alt="Marketing"
+                class="img-fluid rounded mb-3 shadow-sm"
+                style="height: 200px; object-fit: cover; width: 100%"
+              />
+              <h4 class="mt-3">Marketing</h4>
+              <p>Understand digital marketing strategies and tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Featured Courses</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/2.jpg" class="card-img-top" alt="Course" />
+              <div class="card-body">
+                <h5 class="card-title">Intro to Python</h5>
+                <p class="card-text">Instructor: Mohamed Amgad</p>
+                <a href="#" class="btn btn-primary">Enroll</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/1.jpg" class="card-img-top" alt="Course" />
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design Basics</h5>
+                <p class="card-text">Instructor: mahmoud</p>
+                <a href="#" class="btn btn-primary">Enroll</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/3.jpg" class="card-img-top" alt="Course" />
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">Instructor: saaed</p>
+                <a href="#" class="btn btn-primary">Enroll</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">What Our Students Say</h2>
+        <div
+          id="feedbackCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img
+                src="images/4.jpg"
+                class="rounded-circle mb-3 shadow"
+                alt="Mostafa"
+                style="width: 100px; height: 100px; object-fit: cover"
+              />
+              <h5>Mostafa</h5>
+              <p class="fst-italic">
+                "The courses helped me start a new career in tech!"
+              </p>
+            </div>
+            <div class="carousel-item text-center">
+              <img
+                src="images/4.jpg"
+                class="rounded-circle mb-3 shadow"
+                alt="Ahmed"
+                style="width: 100px; height: 100px; object-fit: cover"
+              />
+              <h5>Ahmed</h5>
+              <p class="fst-italic">
+                "Easy to follow and packed with useful content."
+              </p>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#feedbackCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#feedbackCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">FAQ</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#q1"
+              >
+                What is ITI?
+              </button>
+            </h2>
+            <div
+              id="q1"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                ITI is an online and offline platform offering a variety of
+                educational courses.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#q2"
+              >
+                Are they online website?
+              </button>
+            </h2>
+            <div
+              id="q2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                yes they have maharatech that which is online website .
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#q3"
+              >
+                Can I learn with my own?
+              </button>
+            </h2>
+            <div
+              id="q3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Yes, all courses are self-paced and accessible anytime in
+                mahartech website.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About</h5>
+            <p>
+              Iti is committed to providing quality education accessible to
+              everyone.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="">
+              <li><a href="#" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white">Courses</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact</h5>
+            <p>Email: iti@gmail.com</p>
+            <p>Phone: 01010755192</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
